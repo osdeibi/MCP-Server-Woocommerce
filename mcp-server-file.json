@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "woocommerce": {
+      "command": "node",
+      "args": ["your rout to /dist/index.js"],
+      "env": {
+        "WORDPRESS_SITE_URL": "YOUR_URL",
+        "WOOCOMMERCE_CONSUMER_KEY": "YOUR_CONSUMER_KEY",
+        "WOOCOMMERCE_CONSUMER_SECRET": "YOUR_CONSUMER_SECRET",
+        "WORDPRESS_USERNAME": "USERNAME",
+        "WORDPRESS_PASSWORD": "PASSWORD"
+      }
+    }
+  }
+}
